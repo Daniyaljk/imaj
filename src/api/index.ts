@@ -9,9 +9,10 @@ export const getImages = async ()=>{
                 Authorization: `Client-ID ${import.meta.env.VITE_UNSPLASH_KEY}`
             },
             params:{
-                query : 'cars',
+                query : 'car',
                 page : 1,
                 per_page : 20,
+                color : null
             }
         })
 

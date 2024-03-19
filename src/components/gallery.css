@@ -1,6 +1,8 @@
 .gallery-container {
     columns: 6 200px;
     column-gap: 10px;
+    margin-top: 60px;
+    padding: 5px;
 }
 
 .image {
