@@ -1,0 +1,10 @@
+.gallery-container {
+    columns: 6 200px;
+    column-gap: 10px;
+}
+
+.image {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
